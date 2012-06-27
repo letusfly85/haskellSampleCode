@@ -2,6 +2,8 @@
  - author: wada shunsuke
  - create: 28.06.2012
  - update: 28.06.2012
+ -
+ - detail: test
  -}
 
 import Data.Bits ((.&.))
