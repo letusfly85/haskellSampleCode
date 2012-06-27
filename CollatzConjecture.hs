@@ -3,7 +3,7 @@
  - create: 28.06.2012
  - update: 28.06.2012
  -
- - detail: test2
+ - detail: test
  -}
 
 import Data.Bits ((.&.))
