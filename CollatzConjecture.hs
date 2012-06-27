@@ -1,5 +1,6 @@
 {-
  - author: wada shunsuke
+ - create: 28.06.2012
  -}
 
 import Data.Bits ((.&.))
