@@ -1,3 +1,7 @@
+{-
+ - author: wada shunsuke
+ -}
+
 import Data.Bits ((.&.))
 
 collatz :: Int -> IO ()
