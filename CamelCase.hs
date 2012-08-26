@@ -31,8 +31,6 @@ toCamelCase' (x:y:lst) = toUpper x : helper (unscCheck y) lst
                 Just c  -> c : helper (unscCheck x) (y:lst)
                 Nothing -> toUpper x : helper (unscCheck y) lst
 
-type PreWord = Maybe Char
-
 unscCheck :: Char -> Maybe Char
 unscCheck c = case c of
       '_'   -> Nothing
