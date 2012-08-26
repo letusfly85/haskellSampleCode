@@ -18,6 +18,7 @@ toCamelCase' (x:y:lst) = toUpper x : helper (unscCheck y) lst
                 (mc, '_')        -> error "TODO"
                 (Just c , x)     -> c:[x]
                 (Nothing, x)     -> [toUpper x]
+
           helper mc [x,y]  =
              case (mc,x,y) of
                 (mc, x, '_')     -> error "TODO"
@@ -35,3 +36,6 @@ unscCheck :: Char -> Maybe Char
 unscCheck c = case c of
       '_'   -> Nothing
       _     -> Just c
+
+isNgString :: String -> Bool
+isNgString list = if last list == '_' then False else True
