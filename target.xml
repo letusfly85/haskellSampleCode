@@ -1,0 +1,21 @@
+<? xml version="1.0" encoding="UTF-8" ?>
+
+<html>
+	<title>aaa</title>
+	<body name="xxx">
+		<textarea id="aaa" value="hoge">
+			<p style="width=100px;">aaaaaaaaa</p>
+		</textarea>
+		<textarea id="bbb" value="hoge">
+			<p>bbbbbbbbb</p>
+		</textarea>
+	</body>
+	<body name="yyy">
+		<textarea id="ccc" value="hoge">
+			<p>ccccccccc</p>
+		</textarea>
+		<textarea id="ddd" value="hoge">
+			<p>ddddddddd</p>
+		</textarea>
+	</body>
+</html>
